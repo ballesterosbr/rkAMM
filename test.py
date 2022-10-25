@@ -9,7 +9,15 @@ import sys
 def main():
     while True:
         try:
-            option = int(input("Choose an scenario to simulate: \n 1. Scenario 1 \n 2. Scenario 2 \n 3. Scenario 3 \n 4. Scenario 4 \n 5. Scenario 5 \n 6. Hack Scenario \n Scenario: "))
+            option = int(input("Choose an scenario to simulate: \n"
+                                " 1. Scenario 1 - Increasing Liquidity Through Time \n"
+                                " 2. Scenario 2 - More and more Unpaid Invoices \n"
+                                " 3. Scenario 3 - More and more Delay in the Invoice Payments \n"
+                                " 4. Scenario 4 - Playing with Growing Invoices, therefore growing demanded collateral \n"
+                                " 5. Scenario 5 - Playing with Growing % of Collateral with a Same Invoice amount \n"
+                                " 6. Hack Scenario \n"
+                                " Scenario: "
+            ))
         except KeyboardInterrupt:
             print("User has interrupted the simulation.")
             sys.exit()

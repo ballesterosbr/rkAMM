@@ -29,7 +29,7 @@ A Jupyter Notebook has been developed to facilitate the simulation of the rkAMM.
 
 **IMPORTANT** In case you cannot execute any simulation, the notebook is offered with an execution already carried out so that you can observe the results obtained.
 
-See the [rkAMM Jupyter Notebook]()
+Check out the [rkAMM Jupyter Notebook](rkAMM_Simulations_Notebook.ipynb).
 
 ### Option 2 - Running from `test.py` file
 
@@ -48,25 +48,25 @@ See the [rkAMM Jupyter Notebook]()
 In the menu shown you will need to enter the number of the scenario to simulate:
 
 ```
-Choose an scenario to simulate: 
- 1. Scenario 1 
- 2. Scenario 2 
- 3. Scenario 3 
- 4. Scenario 4 
- 5. Scenario 5 
+Choose an scenario to simulate:
+ 1. Scenario 1 – Increasing Liquidity Through Time
+ 2. Scenario 2 – More and more Unpaid Invoices
+ 3. Scenario 3 – More and more Delay in the Invoice Payments
+ 4. Scenario 4 – Playing with Growing Invoices, therefore growing demanded collateral 
+ 5. Scenario 5 – Playing with Growing % of Collateral with a Same Invoice amount
  6. Hack Scenario 
  Scenario: 
 ```
 
 Below is provided a brief explanation of the scenarios:
 
-- *Scenario 1 - There is a contribution of collateral by liquidity providers (LP) based on a growing rate concerning the volume of collateral ($Q$) in the AMM.*
+- *Scenario 1 - There is a contribution of collateral by liquidity providers (LP) based on a growing rate concerning the volume of collateral (Q) in the AMM.*
 
 - *Scenario 2 - Non-collateralized amount of a set of invoices is not repaid to the AMM.*
 
 - *Scenario 3 - Increasing delay in invoice payments.* 
 
-- *Scenario 4 - Amount to be collateralized depends on a variable percentage of the initial volume of collateral ($Q_0$) in the AMM.*
+- *Scenario 4 - Amount to be collateralized depends on a variable percentage of the initial volume of collateral (Q_0) in the AMM.*
 
 - Scenario 5 - *Different % to be collateralized  with the same amount of invoices.*
 
@@ -144,4 +144,6 @@ We highly recommend read the paper before changing the parameters.
 
 Currently, rkAMM is not prepared to support arbitrary cases. You would need to implement your scenario based on the rkAMM defined in the `aux.py` file. Then, in order to correctly simulate the scenario you would need to enter valid values.
 
-We highly recommend you contact us if you want to verify any particular scenario.
+If you want to verify any particular scenario, we are available at:
+- peplluis@casfrare.com
+- alberto.ballesteros@udg.edu
