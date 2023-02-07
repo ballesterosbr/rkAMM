@@ -89,4 +89,4 @@ Currently, rkAMM is not prepared to support arbitrary cases. You would need to i
 
 Also, if you want to verify any particular scenario, we are available at:
 - peplluis@byppay.com
-- alberto.ballesteros@uah.es
+- alberto.ballesterosr@uah.es
